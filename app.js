@@ -42,5 +42,51 @@
 // y.push(4);
 // console.log(x);
 
-const words = ["hello", "world", "welcome!"];
-console.log(words[0]);
+// const words = ["hello", "world", "welcome!"];
+// console.log(words[2]);
+
+// let fruits = ["apples", "mango"];
+// fruits.push("banana");
+// console.log(fruits);
+
+// fruits.pop();
+// console.log(fruits);
+
+// fruits.shift();
+// console.log(fruits);
+
+// fruits.unshift("orange");
+// console.log(fruits);
+
+// const moreFruits = ["strawberries", "pineapple"];
+// const totalFruits = fruits.concat(moreFruits);
+// console.log(totalFruits);
+
+// console.log(totalFruits.join(",  "));
+
+// console.log(totalFruits.reverse());
+
+// console.log(totalFruits.sort());
+
+  
+// const selectedFruits = totalFruits.slice(1, 4);
+// console.log(selectedFruits);
+
+let person = {
+    firstName: "John",
+    age: 30,
+    location:["Candon", "City"]
+
+};
+
+console.log(person.firstName);
+console.log(person["location"]);
+
+person.age = 31;
+console.log(person.age);
+
+person.middleName = "Doe";  // Add new property
+console.log(person.middleName);  // Output: "Doe"
+
+delete person.age; //Remove age property
+console.log(person.age);
